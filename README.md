@@ -1,6 +1,8 @@
 # 20_20_20
 
-An app that forces you every _20 minutes_ to look at something _20 meters_ away for _20 seconds_
+An app that forces you every **20 minutes** to look at something **20 meters** away for **20 seconds**
 This should help you not become short sighted from spending too much time looking at something a few centimeters away
 
-Any feedback would be _insanely_ appreciated
+Any feedback would be **insanely** appreciated
+
+Thanks
