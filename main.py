@@ -12,16 +12,26 @@ LIGHT_GRAY = (200, 200, 200)
 DARK_GRAY = (30, 30, 30)
 
 
+def draw(timer, timerPos):
+    WIN.fill(DARK_GRAY)
+    WIN.blit(timer, timerPos)
+    pygame.display.update()
+
+
 def main():
     clock = pygame.time.Clock()
     startingTime = time.time()
 
     timer = font.render('20', True, LIGHT_GRAY)
-    timerValue = 21
+    timerValue = 20
 
-    halfTimerHeight = timer.get_height() / 2
+    halfTimerWidth, halfTimerHeight = timer.get_size()
+    halfTimerHeight /= 2
+    halfTimerWidth /= 2
 
-    timerPos = [0, HALF_HEIGHT - halfTimerHeight]
+    timerPos = [HALF_WIDTH - halfTimerWidth, HALF_HEIGHT - halfTimerHeight]
+
+    draw(timer, timerPos)
 
     running = True
     while running:
@@ -38,9 +48,7 @@ def main():
         if timerValue == 0:
             running = False
 
-        WIN.fill(DARK_GRAY)
-        WIN.blit(timer, timerPos)
-        pygame.display.update()
+        draw(timer, timerPos)
 
 
 if __name__ == "__main__":
