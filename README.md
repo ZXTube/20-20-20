@@ -5,6 +5,4 @@ This should help you not become short sighted from spending too much time lookin
 
 Any feedback would be ***insanely*** appreciated
 
-jhkhkjhk`rgb(255, 255, 255)`uiyuhjk
-
 Thanks
