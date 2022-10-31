@@ -3,6 +3,8 @@
 An app that forces you every **20 minutes** to look at something **20 meters** away for **20 seconds**
 This should help you not become short sighted from spending too much time looking at something a few centimeters away
 
-Any feedback would be **insanely** appreciated
+Any feedback would be ***insanely*** appreciated
+
+jhkhkjhk`rgb(255, 255, 255)`uiyuhjk
 
 Thanks
