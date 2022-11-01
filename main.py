@@ -67,3 +67,4 @@ if __name__ == "__main__":
     while True:
         main()
         time.sleep(1200)
+        WIN = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
