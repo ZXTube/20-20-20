@@ -1,4 +1,4 @@
-# 20-20-20
+# 20/20/20
 
 An app that forces you every **20 minutes** to look at something **20 feet** away for **20 seconds**
 
