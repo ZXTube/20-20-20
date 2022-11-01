@@ -16,7 +16,7 @@ You can press Alt+F4 or ESC at anytime to close the app
 
 Then the app will sleep for 20 minutes and do this again
 
-If you decide that you want to stop the app you can run the StopApp.bat file in the folder you downloaded
+If you decide that you want to stop the app you can run the StopApp.bat file in the folder you downloaded. This should stop the app from giving you any 20-20-20s anymore. If the StopApp.bat file doesn't work then use the task manager (Open by searching task manager in the start menu) and select 20-20-20 and click end task
 
 Any feedback would be ***insanely*** appreciated
 
