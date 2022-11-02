@@ -19,6 +19,7 @@ Then the app will sleep for 20 minutes and do this again
 Run the `RunOnStartup.bat` to make this app run after you reboot
 You can run the `DontRunOnStartup.bat` to stop the app from running after you reboot
 You can press `The Windows Logo` + `R` then type `shell:startup` to check if this app runs on startup or not
+Also if you move the app after running the `RunOnStartup.bat` you need to rerun the `RunOnStartup.bat`
 
 If you decide that you want to stop the app you can run the StopApp.bat file in the folder you downloaded. This should stop the app from giving you any 20-20-20s anymore. You can make sure that 20-20-20 is not running by using the task manager (Open by searching task manager in the start menu (Click the windows logo)). Search for and select 20-20-20 and click end task
 
