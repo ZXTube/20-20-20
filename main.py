@@ -68,6 +68,9 @@ if __name__ == "__main__":
     while True:
         WIN = pygame.display.set_mode((150, 150), pygame.NOFRAME)
         HALF_WIDTH, HALF_HEIGHT = 75, 75
+
+        win32gui.SetWindowPos(pygame.display.get_wm_info()['window'], win32con.HWND_TOPMOST, 0, 0, 0, 0, win32con.SWP_NOMOVE | win32con.SWP_NOSIZE)
+
         if not main(3, False, SMALL_FONT):
             time.sleep(1200)
             continue
@@ -76,8 +79,7 @@ if __name__ == "__main__":
         WIDTH, HEIGHT = WIN.get_size()
         HALF_WIDTH, HALF_HEIGHT = WIDTH/2, HEIGHT/2
 
-        win32gui.SetWindowPos(pygame.display.get_wm_info()['window'], win32con.HWND_TOPMOST, 0, 0, 0, 0,
-                              win32con.SWP_NOMOVE | win32con.SWP_NOSIZE)
+        win32gui.SetWindowPos(pygame.display.get_wm_info()['window'], win32con.HWND_TOPMOST, 0, 0, 0, 0, win32con.SWP_NOMOVE | win32con.SWP_NOSIZE)
 
         main(20, True, BIG_FONT)
         time.sleep(1200)
