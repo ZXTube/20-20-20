@@ -12,7 +12,7 @@ Then you get the full screen, always on top 20 second timer
 
 When the 20 second timer ends there's a nice little sound effect
 
-You can press Alt+F4 or ESC at anytime to close the app
+You can press `Alt` + `F4` or `ESC` at anytime to close the app
 
 Then the app will sleep for 20 minutes and do this again
 
@@ -21,7 +21,7 @@ You can run the `DontRunOnStartup.bat` to stop the app from running after you re
 You can press `The Windows Logo` + `R` then type `shell:startup` to check if this app runs on startup or not
 Also if you move the app after running the `RunOnStartup.bat` you need to rerun the `RunOnStartup.bat`
 
-If you decide that you want to stop the app you can run the StopApp.bat file in the folder you downloaded. This should stop the app from giving you any 20-20-20s anymore. You can make sure that 20-20-20 is not running by using the task manager (Open by searching task manager in the start menu (Click the windows logo)). Search for and select 20-20-20 and click end task
+If you decide that you want to stop the app you can run the StopApp.bat file in the folder you downloaded. This should stop the app from giving you any 20-20-20s anymore. You can make sure that the app is not running by using the task manager (Open by searching task manager in the start menu (Click the windows logo)). Search for and select 20-20-20 and click end task
 
 Any feedback would be ***insanely*** appreciated
 
