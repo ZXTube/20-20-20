@@ -2,12 +2,13 @@ import win32gui
 import win32con
 import pygame
 import time
+import sys
 import os
 
 pygame.font.init()
 pygame.mixer.init()
 
-projectFolder = os.path.dirname(__file__)
+projectFolder = os.path.dirname(os.path.abspath(sys.argv[0]))
 resourcesFolder = os.path.join(projectFolder, 'Resources')
 
 FINISHED_SFX = pygame.mixer.Sound(
