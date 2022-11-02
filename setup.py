@@ -1,9 +1,9 @@
-# This script is only used to turn the main.py script into a windows executable, by running "python setup.py build"
+# This script is only used to turn the main.py script into a windows executable, by running `python setup.py build`
 
 from cx_Freeze import setup, Executable
 import pkgutil
 
-files = ["StopApp.bat", "Resources"]
+files = ["StopApp.bat", "RunOnStartup.bat", "DontRunOnStartup.bat", "Resources"]
 includes = ["encodings", "collections", "importlib", "pygame", "win32com", "os", "time"]
 excludes = [i.name for i in list(pkgutil.iter_modules()) if i.ispkg and i.name not in includes]
 
